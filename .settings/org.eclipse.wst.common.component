@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="大学学籍管理系统安装配制">
+        
+    <wb-module deploy-name="first-maven-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/大学学籍管理系统/JavaEE_SRC/myapp/src/java"/>
-        <property name="context-root" value="大学学籍管理系统安装配制"/>
+                
         <property name="java-output-path" value="/大学学籍管理系统安装配制/大学学籍管理系统/JavaEE_SRC/myapp/web/WEB-INF/classes"/>
+        <property name="context-root" value="first-maven"/>
+            
     </wb-module>
+    
 </project-modules>
